@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Newsletter</title>
+    <link rel="icon" href="./Recursos/favicons/envelope-solid.svg" type="image/x-icon">
+</head>
+<body>
+    <table border="1px" width="100%">
+        <thead>
+            <tr bgcolor = "#bbbcb8">
+                <th><a href="Index.html">Inicio</a></th>
+                <th><a href="Discografia.html">Discografía</a></th>
+            </tr>
+        </thead>
+    </table>
+    <hr>
+    <br>
+    <h2 align="center"><u>Formulario</u></h2>
+    <h3 align="center"><strong>Be The Dragon</strong></h3>
+    <form>
+        <label for = "nombre">Nombre :</label>
+        <input type = "text" id ="nombre" name ="nombre" placeholder ="Introduce tu nombre">
+        <br>
+        <br>
+        <label for = "apellido">Apellidos :</label>
+        <input type = "text" id ="apellido" name ="apellido" placeholder = "Introduce tus apellidos">
+        <br>
+        <br>
+        <label for = "genero">Genero :</label>
+        <select id = "genero" name ="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">No definido</option>
+        </select>
+        <br>
+        <br>
+        <label for = "nacionalidad">Nacionalidad :</label>
+        <select id = "nacionalidad" name ="nacionalidad">
+            <option value="espana">España</option>
+            <option value="francia">Francia</option>
+            <option value="italia">Italia</option>
+            <option value="alemania">Alemania</option>
+            <option value="reinounido">Reino Unido</option>
+            <option value="america">EE.UU</option>
+        </select>
+        <br>
+        <br>
+        <label for = "email">Correo electrónico :</label>
+        <input type = "email" id ="email" name ="email" placeholder = "Introduce tu email">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Condiciones</legend>
+            <input type = "checkbox" name = "condiciones" value = "condiciones">
+            <label for = "condiciones">Acepta las condiciones de uso y privacidad.</label>
+            <br>
+            <input type = "checkbox" name = "noticias" value = "noticias">
+            <label for = "noticias">Acepta recibir información referente a la banda y últimas noticias sobre sus miembros y conciertos.</label>
+            <br>
+            <input type = "checkbox" name = "promociones" value = "promociones">
+            <label for = "promociones">Acepta recibir promociones relacionadas con otros grupos musicales y bandas.</label>
+            <br>
+            <input type = "checkbox" name = "ofertas" value = "ofertas">
+            <label for = "ofertas">Acepta recibir promociones y ofertas en descuentos por afiliado en merchandasing y productos de la banda.</label> 
+        </fieldset>
+        <br>
+        <center><a href="Respuesta.html"><button>Enviar Formulario</a></button></center>
+    </form>
+</body>
+</html>
